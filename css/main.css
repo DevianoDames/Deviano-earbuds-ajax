@@ -61,12 +61,13 @@ model-viewer {
   padding: 0.5em 1em;
   position: absolute;
   top: 50%;
+  width: -moz-max-content;
   width: max-content;
   text-align: left;
 }
 
 .HotspotAnnotation p {
-  color: #333;
+  color: #E89B36;
   line-height: 22px;
   font-weight: 300;
 }
@@ -149,4 +150,4 @@ model-viewer[ar-status=session-started] > #ar-prompt {
 
 model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
-}/*# sourceMappingURL=main.css.map */
+}
